@@ -62,9 +62,9 @@ int list()
     scanf("%d", &ch);
     return (ch);
 }
-void deposite()
+void deposit()
 {
-    printf("\n Enter the amount you want to diposit: ");
+    printf("\n Enter the amount you want to deposit: ");
     scanf("%d", &Amount);
     total_amount += Amount;
 }
